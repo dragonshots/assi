@@ -1,0 +1,79 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  background-color:aquamarine;
+  width: 1250px;
+}
+nav{
+  background-color: #188155 ;
+  height: 40px;
+  padding-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-top:18px
+}
+nav li{
+  display:inline-block;
+  text-align:center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align:center;
+  padding: 12px
+}
+footer {
+  clear: both;
+  background-color: #188155;
+  color: white;
+  height: 30px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+table {
+  width: 100%;
+  border-style: groove;
+  border: 5px
+}
+input{
+  font-weight: bold;
+}
+tr.product{
+  border-style: groove;
+  border-width: 5px
+}
+th.product{
+  border-style: groove;
+  border-width: 5px
+}
+td.product{
+    border-style: groove;
+    border-width: 5px;
+    border-color:black
+}
+nav a:hover{
+  color: black;
+}
+img {
+  transition:transform 0.25s ease;
+}
+
+img:hover.hov {
+  -webkit-transform:scale(3.5); /* or some other value */
+  transform:scale(3.5);
+}
+td.smap{
+  border-style: groove;
+  border-width: 5px;
+  border-color:black;
+  text-align: center;
+  font-weight: bolder;
+  }
